@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+    <title>Malik</title>
+</head>
+<body>
+    <header class="primary-header">
+        <a href="#home"><img src="./src/menu/myLogo.png" alt="my logo"></a>
+        <button class="mobile-nav-toggle">
+            <img src="./src/menu/close.png" alt="close menu icone" class="icon-close">
+            <img src="./src/menu/open.png" alt="open menu icon" class="icon-open">
+        </button>
+        <nav class="primary-navigation">
+            <ul>
+                <li class="element-navigation"><a href="#projects">Projects</a></li>
+                <li class="element-navigation"><a href="#about">About</a></li>
+                <li class="element-navigation"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="banner">
+                <img src="./src/personal-memoji/coding.jpeg" alt="pretending to code :)">
+                <span>
+                    <h3 class="hello-text">Hello, I am Malik</h3>
+                    <h1 class="profession-text">Developer,
+                        Student,
+                        and Learner</h1>
+                </span>
+                <div class="call-to-action">
+                    <button class="contact"><a href="#contact" style="color: white;">Contact</a></button>
+                    <button class="CV"><a href="./src/CV 2.1.pdf" download="myCv">Download CV </a><img src="./src/banner/right-arrow.png" alt="right-arrow"></button>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="projects-container">
+                <div class="header-projects">
+                    <h1>Latest Projects</h1>
+                </div>
+                <div class="projects">
+                    <div class="odaho">
+                        <h3 class="project-title">
+                            E-commerce
+                        </h3>
+                        <div class="languages">
+                            <ul>
+                                <li class="extended-1">WordPress</li>
+                                <li class="extended-2">HTML5</li>
+                                <li class="extended-3">CSS3</li>
+                            </ul>
+                        </div>
+                        <img src="./src/projects/odaho.png" alt="screenshot of Odaho" class="project-image">
+                    </div>
+                    <div class="kupkan">
+                        <h3 class="project-title">
+                            Social Media
+                        </h3>
+                        <div class="languages">
+                            <ul>
+                                <li class="extended-2">React</li>
+                                <li class="extended-3">SCSS</li>
+                                <li class="extended-1">Rest API</li>
+                            </ul>
+                        </div>
+                        <img src="./src/projects/kupkan.png" alt="screenshot of kupkan" class="project-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="about-container">
+                <h1>About me</h1>
+                <div class="about-sections">
+                    <div class="about-section-text">
+                        <div class="about-description">
+                            <p>I am  Malik. 21 years old,  passionated about web developement and currently embedded in a computer science engineering degree.</p>
+                            <p>I am willing to enhance my competences and motivated to provide you the best services. </p>
+                        </div>
+                        <div class="about-skills">
+                            <h3>Skills</h3>
+                            <div class="skill-icons">
+                                <img src="./src/skill-icon/html.png" alt="html">
+                                <img src="./src/skill-icon/css.png" alt="css">
+                                <img src="./src/skill-icon/js.png" alt="javascript">
+                                <img src="./src/skill-icon/react.png" alt="react">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-section-memoji">
+                        <img src="./src/personal-memoji/hey.jpeg" alt="memoji saying hey !">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact-container">
+                <div class="contact-to-action">
+                    <h1>Do you have any idea ?</h1>
+                    <h3>Let's build it together</h3>
+                    <a href="mailto:boughris@outlook.fr" class="email-me">boughris@outlook.fr</a>
+                    <div class="contact-media">
+                        <a href="https://github.com/Boughris-Abdelmalek" target="_blank"><img src="./src/contact/github-icon.png" alt="github"></a>
+                        <a href="https://www.linkedin.com/in/abdelmalek-boughris/" target="_blank"><img src="./src/contact/linkedin-icon.png" alt="linkedin"></a>
+                    </div>
+                </div>
+                <div class="contact-banner">
+                    <img src="./src/contact/social-media-icons.png" alt="social media icons">
+                </div>
+                <p class="credits">
+                    Developed by Abdelmalek Boughris ©️ 2022
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
